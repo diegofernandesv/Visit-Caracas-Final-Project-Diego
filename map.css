@@ -3,6 +3,8 @@
 .navbar-map {
     display: flex;
     gap: 10px;
+    margin-right: 16px;
+    margin-left: 16px;
 }
 
 .navbar-map .link {
