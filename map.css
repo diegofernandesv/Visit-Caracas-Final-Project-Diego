@@ -1,5 +1,37 @@
 @import url('styles.css');
 
+.map-container h2 {
+    font-weight: 500;
+    font-size: 24px;
+    color:#F2FF58;
+    margin-left: 16px;
+
+}
+
+
+.download h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.download-button {
+
+    padding: 0.5em 4em;
+    border-radius: 13px;
+    background-color: #F2FF58;
+    color: #022425;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 80px;
+}
+
 .navbar-map {
     display: flex;
     gap: 10px;
@@ -30,26 +62,47 @@
     font-size: 16px;
     text-decoration: none;
     text-align: center;
+    border: aliceblue;
 
+}
+
+.safety h2 {
+    margin-top: 80px;
+    font-size: 20px;
+    color:#F2FF58;
+    margin-bottom: 120px;
+}
+
+.safety-button {
+    padding: 0.5em 4em;
+    border-radius: 13px;
+    font-size: 12px;
+    background-color: #F2FF58;
+    color: #022425;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 100px;
 }
 
 .navbar-map .link:nth-child(1) {
     background-image: url('images/buttonQQ.png');
-    border: 1px #F2FF58;
 }
 
 .navbar-map .link:nth-child(2) {
     background-image: url('images/buttonLA.png');
-    border: 1px #F2FF58;
 }
 
 .navbar-map .link:nth-child(3) {
     background-image: url('images/buttonOC.png');
-    border: 1px #F2FF58;
 }
 
 .navbar-map .active-link:nth-child(1) {
-    background-image: url('images/buttonQQ.png'); /* Ensure the active link keeps the same background */
+    background-image: url('images/buttonQQ.png'); 
 }
 
 .navbar-map .active-link:nth-child(2) {
@@ -58,4 +111,53 @@
 
 .navbar-map .active-link:nth-child(3) {
     background-image: url('images/buttonOC.png');
+}
+
+
+@media (min-width: 1025px) {
+
+    .navbar-map {
+        gap: 18px;
+        margin-left: 138px;
+    }
+    .map-container h2 {
+        font-size: 64px;
+        text-align: center;
+    }
+
+    .navbar-map .link {
+        width: 382px;
+        height: 124px;
+        font-size: 32px;
+        margin-top: 20px;
+        gap:32px;
+    }
+    .navbar-map .active-link {
+        width: 382px;
+        height: 124px;
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .download-button {
+        top: 230%;
+        font-size: 20px;
+    }
+
+    .download-button:hover {
+        color:#F2FF58;
+        background-color: #365549;
+    }
+
+    .download h2 {
+        font-size:64px ;
+    }
+    .safety-button {
+        top: 266%;
+        font-size: 20px;
+    }
+    .safety-button:hover {
+        color:#F2FF58;
+        background-color: #365549;
+    }
 }
