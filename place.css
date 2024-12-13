@@ -8,10 +8,10 @@
 
 
 .go-back button {
-    margin-left: 16px;
-    margin-top: 20px;
+    margin-left: 158px;
+    margin-top: 60px;
     background-color: #F2FF58;
-    color:#006d6f;
+    color:#022425;
     padding: 0.5em 1em;
     border: none;
     border-radius: 5px;
@@ -21,13 +21,16 @@
 }
 
 .go-back button:hover {
-    background-color: #006d6f;
+    background-color: #365549;
+    color:#F2FF58;
 }
 
 h2{
+    margin-left: 138px;
     font-weight: 500;
     font-size: 64px;
     color:#F2FF58;
+    margin-top: -180px;
 }
 
 
@@ -44,6 +47,8 @@ h2{
     margin-top: 20px;
     text-align: justify;
     font-size: 24px;
+    margin-left: 138px;
+    width: 1140px;
 }
 
 
@@ -99,6 +104,8 @@ img{
 }
 
 
+
+
 @media only screen and (max-width: 768px) {
 
     .img {
@@ -111,13 +118,16 @@ img{
     }
 
     h2{
+        margin-left: 16px;
         font-size: 24px;
         margin-top: -100px;
     }
 
     .container p {
+        margin-right: 16px;
+        width: 300px;
+        margin-left: 16px;
         margin-top: 20px;
-        text-align: justify;
         font-size: 12px;
     }
 
@@ -127,5 +137,8 @@ img{
         height: 50px;
         opacity: 0.5;;
     
+    }
+    .go-back button{
+        margin-left: 16px;
     }
 }
