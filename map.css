@@ -24,12 +24,7 @@
     color: #022425;
     border: none;
     text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 80px;
+    margin-left: 112px;
 }
 
 .navbar-map {
@@ -70,22 +65,18 @@
     margin-top: 80px;
     font-size: 20px;
     color:#F2FF58;
-    margin-bottom: 120px;
+
 }
 
 .safety-button {
     padding: 0.5em 4em;
     border-radius: 13px;
     font-size: 12px;
+    margin-left: 108px;
     background-color: #F2FF58;
     color: #022425;
     border: none;
     text-decoration: none;
-    display: inline-block;
-    position: absolute;
-    top: 76%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     margin-bottom: 100px;
 }
 
@@ -140,8 +131,8 @@
     }
 
     .download-button {
-        top: 230%;
         font-size: 20px;
+        margin-left: 648px;
     }
 
     .download-button:hover {
@@ -153,8 +144,8 @@
         font-size:64px ;
     }
     .safety-button {
-        top: 266%;
         font-size: 20px;
+        margin-left: 620px;
     }
     .safety-button:hover {
         color:#F2FF58;
