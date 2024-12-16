@@ -35,6 +35,7 @@
 }
 
 .navbar-map .link {
+    font-weight: 500;
     padding-top: 10px;
     padding-bottom: 10px;
     border: none;
@@ -50,6 +51,7 @@
 }
 
 .navbar-map .active-link {
+    font-weight: 500;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 150px;
