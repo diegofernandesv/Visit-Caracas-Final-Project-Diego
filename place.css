@@ -7,6 +7,10 @@
 }
 
 
+.upper-text {
+    background-image: url(images/quebradaquintero.png);
+}
+
 .go-back button {
     margin-left: 158px;
     margin-top: 60px;
