@@ -10,7 +10,7 @@ document.getElementById("burger-menu").addEventListener("click", toggleMenu);
 
 
 document.getElementById('explore-button').addEventListener('click', function () {
-    window.location.href = 'explore.html';
+    window.location.href = 'subpages/explore.html';
   });
 
 
